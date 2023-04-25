@@ -47,8 +47,8 @@ paths:
 securityDefinitions:
   # Basic authentication with an API key.
   api_key:
-    type: "apiKey"
-    name: "key"
+    type: "8b91df495ac0f8902cd927c646489c218bcbe3cd"
+    name: "wromo"
     in: "query"
 
 x-google-management:
