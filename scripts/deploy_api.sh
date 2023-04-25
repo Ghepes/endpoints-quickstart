@@ -28,7 +28,7 @@ main() {
   mv "$temp_file" "$TEMP_FILE"
   # Because the included API is a template, we have to do some string
   # substitution before we can deploy it. Sed does this nicely.
-  < "$API_FILE" sed -E "s/YOUR-PROJECT-ID/${project_id}/g" > "$TEMP_FILE"
+  < "$API_FILE" sed -E "s/www-wromo-com-153559/${project_id}/g" > "$TEMP_FILE"
   echo "Deploying $API_FILE..."
   echo "gcloud endpoints services deploy $API_FILE"
   gcloud endpoints services deploy "$TEMP_FILE"

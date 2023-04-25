@@ -14,13 +14,13 @@
 ---
 swagger: "2.0"
 info:
-  title: "Airport Codes"
-  description: "Get the name of an airport from its three-letter IATA code."
+  title: "Airport Codes Endpoint"
+  description: "Get start airport code Endpoint."
   version: "1.0.0"
 security:
   - api_key: []
 # This field will be replaced by the deploy_api.sh script.
-host: "YOUR-PROJECT-ID.appspot.com"
+host: "www-wromo-com-153559.appspot.com"
 schemes:
   - "https"
 paths:

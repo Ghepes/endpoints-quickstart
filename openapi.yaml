@@ -14,17 +14,17 @@
 ---
 swagger: "2.0"
 info:
-  title: "Airport Codes"
-  description: "Get the name of an airport from its three-letter IATA code."
+  title: "Airport Codes Endpoint"
+  description: "Get start airport code Endpoint."
   version: "1.0.0"
 # This field will be replaced by the deploy_api.sh script.
-host: "YOUR-PROJECT-ID.appspot.com"
+host: "www-wromo-com-153559.appspot.com"
 schemes:
   - "https"
 paths:
   "/airportName":
     get:
-      description: "Get the airport name for a given IATA code."
+      description: "Get the airport API."
       operationId: "airportName"
       parameters:
         -
@@ -38,4 +38,4 @@ paths:
           schema:
             type: string
         400:
-          description: "The IATA code is invalid or missing."
+          description: "endpoint gateway."
